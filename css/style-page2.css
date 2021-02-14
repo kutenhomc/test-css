@@ -1,0 +1,46 @@
+body{
+    font-family: "Roboto",sans-serif;
+    box-sizing: border-box;
+    line-height: 1.7;
+    letter-spacing: -.3px;
+    margin: 5% 20%;
+    background-color: #f6f8f9;
+}
+.page2-header{
+    margin: 100px 0px;
+}
+.page2-header-content1{
+    color: #24b47e;
+    font-size: 14px;
+    padding:10px 0px;
+    font-weight: 600;
+}
+.page2-header-content2{
+    font-size: 30px;
+    font-weight: 0;
+    margin-bottom: 20px;
+}
+.page2-header-content3{
+    font-size: 15px;
+}
+.page2-content-icon{
+    color: #24b47e !important;
+}
+.page2-content-important{
+    display:grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.page2-content{
+    margin-right: 30px;
+}
+.page2-content-icon{
+    margin: 20px 2px;
+}
+.page2-content-tema{
+    margin-bottom: 10px;
+}
+.page2-content-naiyo{
+    color:#888;
+    margin-bottom: 50px;
+    font-size: 13px;
+}

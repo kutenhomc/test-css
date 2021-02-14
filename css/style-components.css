@@ -1,0 +1,85 @@
+.page1-header{
+    border:1px solid #DDD;
+}
+.page1-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border:1px solid #DDD;
+}
+.page2{
+    background-color: #f6f8f9;
+}
+.page2-header{
+    border:1px solid #DDD;
+}
+.page2-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border:1px solid #DDD;
+}
+.page3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border:1px solid #DDD;
+}
+.page4-header{
+    text-align: center;
+    border:1px solid #DDD;
+}
+.page4-content{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    border:1px solid #DDD;
+}
+.page5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.page5-content-left{
+    border:1px solid #DDD;
+}
+.page5-content-right{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    border:1px solid #DDD;
+    background-color: #f6f8f9;
+}
+.page6-header{
+    border:1px solid #DDD;
+}
+.page6-content{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    border:1px solid #DDD;
+    background-color: #f6f8f9;
+}
+.page7-header{
+    text-align: center;
+    border:1px solid #DDD;
+}
+.page7-content{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    border:1px solid #DDD;
+}
+.page8-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border:1px solid #DDD;
+}
+.page8-content-left{
+    border:1px solid #DDD;
+}
+.page8-content-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border:1px solid #DDD;
+}
+.page8-coppy{
+    float:left;
+    border:1px solid #DDD;
+}
+.page8-icon{
+    float:right;
+    border:1px solid #DDD;
+}

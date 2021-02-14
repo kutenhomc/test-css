@@ -1,0 +1,126 @@
+body{
+    font-family: "Roboto",sans-serif;
+    box-sizing: border-box;
+    line-height: 1.7;
+    letter-spacing: -.3px;
+    
+    
+}
+hr{
+    opacity: 0.2;
+}
+.header{
+    /* border: 1px solid #e7ecef; */
+    padding:10px 30px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    align-items: center;
+    text-align: center;
+    margin: 0px 20%;
+}
+.logo{
+font-size: 25px;
+color:#111;
+font-weight: 300;
+
+}
+.menu {
+    grid-column: 3/10;
+
+}
+
+.menu i{
+    color: #24b47e;
+    border:1px solid #24b47e;
+    border-radius: 20px;
+    padding: 12px;
+    font-size: 12px;
+    display: none;
+    
+}
+.menu ul{
+    margin: 0;
+    
+}
+.menu ul li{
+    list-style: none;
+    padding:10px 0px;
+    font-size: 14px;
+    display: inline;
+
+}
+.menu ul li a{
+    padding:0px 10px;
+
+}
+.search{
+    grid-column: 10/11;
+}
+.search i{
+    color: #24b47e;
+    border:1px solid #24b47e;
+    border-radius: 20px;
+    padding: 12px;
+    font-size: 12px;
+}
+.buy-now{
+    color: #24b47e;
+    border:1px solid #24b47e;
+    border-radius: 20px;
+    padding:12px 15px;
+    font-size: 12px;
+    width: 60px;
+    grid-column: 11/13;
+    margin-left: 10px;
+}
+.container-content1{
+    padding: 10px;
+}
+.content1{
+    margin: 0px 20%;
+    padding:50px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content1-image img{
+    float:right;
+    width: 406px;
+    height: 406px;
+    border-radius: 300px;
+    padding: 15px 15px;
+}
+.about-us{
+    font-size: 14px;
+    color:#24b47e;
+    font-weight: 700;
+    text-align: left;
+}
+.content1-1{
+    font-size: 50px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    color: #888;
+    letter-spacing: -.5px;
+
+}
+.content1-2{
+    font-size: 14px;
+    text-align: left;
+    color: #999;
+}
+.read-more{
+    font-size: 12px;
+    color:#24b47e;
+    font-weight: 700;
+    text-align: left;
+    padding:10px;
+    border: 1px solid #24b47e;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+}
+.read-more span{
+    padding-left: 20px;
+}
+

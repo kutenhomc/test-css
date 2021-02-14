@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    
+}
+.page4-header{
+    text-align: center;
+    margin: 80px 0px;
+}
+.page4-header-tema {
+    color: #24b47e;
+    font-weight: 600;
+    padding:10px;
+    font-size: 14px;
+}
+.page4-header-h2{
+    font-size: 38px;
+    padding-bottom:20px;
+    
+}
+.page4-header-naiyo{
+    font-size: 14px;
+    color: #555;
+}
+.page4-brand{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 20% 80px 20%;
+}
+.page4-brand-image{
+    display: flex;
+    border: 1px solid #DDD;
+    box-shadow: 1px 1px 20px rgb(221, 221, 221, 0.9);
+    
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 30px;
+}

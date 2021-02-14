@@ -1,0 +1,30 @@
+body{
+    font-family: "Roboto",sans-serif;
+    box-sizing: border-box;
+    line-height: 1.7;
+    letter-spacing: -.3px;
+    margin: 5% 0;
+
+    color: white;
+    /* background-color: #f6f8f9; */
+    /* color: #24b47e; */
+    
+
+}
+.page3-container{
+
+    
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.page3-content{
+    background-color: #24b47e;
+    padding:10% 10%;
+}
+.page3-tema{
+    font-weight: 600;
+}
+.page3-h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
